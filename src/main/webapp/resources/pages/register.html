@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+<head>
+    <meta charset="UTF-8" /> 
+    <title>
+        LOL
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+     <style type="text/css">
+     .login-form {
+     	    background: none repeat scroll 0 0 #f3f3f3;
+     	    border: 1px solid #fff;
+     	    border-radius: 5px;
+     	    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+     	    margin: 0 auto;
+     	    position: relative;
+     	    width: 890px;
+     	    min-height: 300px;
+     	}
+
+    table .tr_language{
+     	min-height:40px;
+     	margin-top: 10px;
+     	float:left;
+     }
+
+     table .language_checkbox{
+     	margin-right: 20px;
+     }
+
+     
+     </style>
+</head>
+<body>
+
+<div id="wrapper">
+	<form name="login-form" class="login-form" action="" method="post">
+
+	<div class="header">
+	<h1>Registration Form</h1>
+	<span>Fill out the form below for Registration.</span>
+	</div>
+
+	<div class="content">
+	<table>
+		<tr>
+			<td>First Name</td>
+			<td><input name="firstname" type="text" class="input firstname" placeholder="First Name" /></td>
+		</tr>
+		<tr>
+			<td>Last Name</td>
+			<td><input name="lastname" type="text" class="input lastname" placeholder="Last Name" /></td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td><input name="email" type="text" class="input email" placeholder="Email" /></td>
+		</tr>
+		<tr>
+			<td><div class="tr_language">Language</div></td>
+			<td>
+				<span class="language_checkbox"><input name="language" type="checkbox" class="language" value="English" />English</span>
+				<span class="language_checkbox"><input name="language" type="checkbox" class="language" value="German" />German</span>
+				<span class="language_checkbox"><input name="language" type="checkbox" class="language" value="French" />French</span>
+				<span class="language_checkbox"><input name="language" type="checkbox" class="language" value="Italien" />Italian</span>
+			</td>
+		</tr>
+		<tr>
+			<td>Username</td>
+			<td><input name="username" type="text" class="input username" placeholder="Username" /></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td><input name="password" type="password" class="input password1" placeholder="Password" /></td>
+		</tr>
+		<tr>
+			<td>Confirm Password</td>
+			<td><input name="conf_password" type="password" class="input password2" placeholder="Confirmed Password" /></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+
+			
+	</div>
+
+	<div class="footer">
+	<input type="submit" name="submit" value="Login" class="register" />
+	<input type="submit" name="submit" value="Register" class="button" />
+	</div>
+	
+	</form>
+	
+
+</div>
+<div class="gradient"></div>
+
+
+</body>
+</html>
