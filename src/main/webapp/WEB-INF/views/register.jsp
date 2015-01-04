@@ -6,7 +6,7 @@
     <title>
         LOL
     </title>
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link href="<c:url value='/resources/css/style.css' />" rel="stylesheet"  /> 
      <style type="text/css">
      .login-form {
      	    background: none repeat scroll 0 0 #f3f3f3;
@@ -87,8 +87,7 @@
 	</div>
 
 	<div class="footer">
-	<a href="login.html">
-	<input type="button" name="button" value="Login" class="register" />
+	<input type="submit" name="submit" value="Login" class="register" />
 	<input type="submit" name="submit" value="Register" class="button" />
 	</div>
 	

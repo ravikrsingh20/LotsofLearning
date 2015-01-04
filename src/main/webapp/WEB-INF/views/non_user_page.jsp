@@ -6,7 +6,7 @@
     <title>
         LOL
     </title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href='<c:url value = "/resources/css/style.css" />' />
     <style type="text/css">
     .main_block {
     	    background: none repeat scroll 0 0 #f3f3f3;
